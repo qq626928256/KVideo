@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: {
     icon: '/icon.png',
+    apple: '/icon.png',
+  },
+  manifest: '/manifest.json',
+  themeColor: '#000000',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'black-translucent',
+    title: siteConfig.name,
   },
 };
 
